@@ -97,7 +97,7 @@ const PasswordGenerator: React.FC = () => {
             {password && (
                 <div className="mt-4">
                     <h3 className="text-md font-bold">Generated Password:</h3>
-                    <p className="text-lg font-mono">{password}</p>
+                    <p className="text-md font-mono">{password}</p>
                 </div>
             )}
         </div>
